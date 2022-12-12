@@ -1,0 +1,22 @@
+{
+"player":[
+     {
+        "id": "elso", 
+        "name": "Focista 1",
+        "qualification": 10, 
+        "position": "csatár", 
+        "club": "Club 1", 
+        "age": 32, 
+        "nationality": "Magyar" 
+    },
+    {
+        "id": "masodik", 
+        "name": "Focista 2",
+        "qualification": 7, 
+        "position": "kapus", 
+        "club": "Club 2", 
+        "age": 47, 
+        "nationality": "Német" 
+    }
+]
+}
