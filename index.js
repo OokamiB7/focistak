@@ -4,13 +4,13 @@ const bodyParser = require("body-parser")
 const uniqid = require('uniqid'); 
 const sanitizeHtml = require('sanitize-html');
 
-const dataFile = "./data/products.json";
+const dataFile = "./data/players.json";
 const port = 3000
 
 const app = express()
 
 //get product by id
-app.get('/products/:id', function (req, res) {
+app.get('/players/:id', function (req, res) {
     let id = req.params.id;
 
     //beolvassuk az összes adatot: json -> obj

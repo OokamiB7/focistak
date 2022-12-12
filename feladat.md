@@ -67,7 +67,6 @@ Az alábbi módosítánál ügyeljen arra, hogy
     - Az űrlap alján legyen egy `mentés` gomb, aminek click eseményéhez rendeljen hozzá egy megfelelően elnevezett (pl. `playerAppend()`) függvényt
     - commit: `űrlap kész`, majd push
 
-- commit: `playerAppend: newPlayer` 
 
 2. A fatch függvény használatával készítse el vagy then, vagy awayt szintaktikával az adatok posztolásához szükséges ajax kérést. 
     - A művelet helyes lefolyása után ürítse a mezők tartalmát.
