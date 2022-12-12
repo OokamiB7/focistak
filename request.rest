@@ -5,7 +5,7 @@ get http://localhost:3000/players
 get http://localhost:3000/players/elso
 
 ### delete
-delete http://localhost:3000/products/masodik
+delete http://localhost:3000/players/masodik
 
 ### post
 post http://localhost:3000/players
