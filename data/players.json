@@ -1,22 +1,49 @@
 {
-"player":[
-     {
-        "id": "elso", 
-        "name": "Focista 1",
-        "qualification": 10, 
-        "position": "csatár", 
-        "club": "Club 1", 
-        "age": 32, 
-        "nationality": "Magyar" 
-    },
-    {
-        "id": "masodik", 
-        "name": "Focista 2",
-        "qualification": 7, 
-        "position": "kapus", 
-        "club": "Club 2", 
-        "age": 47, 
-        "nationality": "Német" 
-    }
-]
+    "players": [
+        {
+            "id": "elso", 
+            "name": "Focista 1",
+            "qualification": 10, 
+            "position": "csatár", 
+            "club": "Club 1", 
+            "age": 32, 
+            "nationality": "Magyar" 
+        },
+        {
+            "id": "masodik", 
+            "name": "Focista 2",
+            "qualification": 7, 
+            "position": "kapus", 
+            "club": "Club 2", 
+            "age": 47, 
+            "nationality": "Német" 
+        },
+        {
+            "id": "harmadik", 
+            "name": "Focista 3",
+            "qualification": 1, 
+            "position": "asdasdads", 
+            "club": "Clubbb", 
+            "age": 22, 
+            "nationality": "adsasd" 
+        },
+        {
+            "id": "negyedik", 
+            "name": "focista 4",
+            "qualification": 3, 
+            "position": "kapus", 
+            "club": "Club 5", 
+            "age": 23, 
+            "nationality": "Spanyol" 
+        },
+        {
+            "id": "otodik", 
+            "name": "focista 5",
+            "qualification": 8, 
+            "position": "asadasd", 
+            "club": "Club 5", 
+            "age": 32, 
+            "nationality": "portugál" 
+        }
+    ]
 }

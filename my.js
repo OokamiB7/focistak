@@ -8,15 +8,15 @@ async function getPlayers(){
       let data = await response.json();
       viewList(data);
   
-      let types = data.map(player => player.type);
+      // let types = data.map(player => player.type);
   
-      let listHtml = "";
-      for (const type of types) {
-        listHtml += `<p>${type}</p>`
-      }
-      document.getElementById("types").innerHTML = listHtml;
-      let message = "Itt a vége";
-      document.getElementById("end").innerHTML = `<h2>${message}</h2>`;
+      // let listHtml = "";
+      // for (const type of types) {
+      //   listHtml += `<p>${type}</p>`
+      // }
+      // document.getElementById("types").innerHTML = listHtml;
+      // let message = "Itt a vége";
+      // document.getElementById("end").innerHTML = `<h2>${message}</h2>`;
   
     } catch (error) {
       document.getElementById("list").innerHTML = `<h2>Szerver Hiba</h2>`;
@@ -31,8 +31,6 @@ async function getPlayers(){
     }
     document.getElementById("list").innerHTML = listHtml;
   }
-
-  document.getElementById("idInput").value
 
   async function playerAppend() {
     let player =  {
@@ -67,5 +65,5 @@ async function getPlayers(){
       document.getElementById("list").innerHTML = `<h2>${error}</h2>`
     }
   
-  
+
   }
