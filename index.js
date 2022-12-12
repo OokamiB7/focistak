@@ -115,26 +115,28 @@ app.put('/products/:id', bodyParser.json(),function (req, res) {
 })
 
 //post
-app.post('/products',bodyParser.json(), function (req, res) {
-    let newProduct = {
+app.post('/players',bodyParser.json(), function (req, res) {
+    let newPlayer = {  
         id: uniqid(), 
         name: sanitizeHtml(req.body.name),
-        quantity: req.body.quantity,
-        price: req.body.price,
-        type: sanitizeHtml(req.body.type)
+        qualification: req.body.qualification, 
+        position: req.body.position, 
+        club: req.body.club, 
+        age: req.body.age, 
+        nationality: req.body.nationality 
     }
 
     
     fs.readFile(dataFile,(error, data)=>{
         //beolvas, json -> obj
-        let products = JSON.parse(data);
+        let players = JSON.parse(data);
         //push
-        products.push(newProduct);
+        players.push(newPlayer);
         //visszaír: obj -> json
-        products = JSON.stringify(products)
-        fs.writeFile(dataFile, products, (error)=>{
+        players = JSON.stringify(players)
+        fs.writeFile(dataFile, players, (error)=>{
             console.log(error);
-            res.send(newProduct);
+            res.send(newPlayer);
         })
 
     })
